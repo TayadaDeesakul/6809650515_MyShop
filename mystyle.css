@@ -69,3 +69,7 @@ nav{
   color:black;
   margin-left: 10pt;
 }
+.option{
+  display: flex;
+  list-style: none;
+}
