@@ -183,3 +183,50 @@ height: 550px;
 margin-top: 50px;
 text-align: center;
 }
+.popular-section {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 20px;
+  border-radius:20px;
+  font-family: "Sniglet", system-ui;
+}
+
+.gelato-gallery {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.gelato-card {
+  background-color: #fce4ec; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 250px; 
+  max-width: 100%;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 20px;
+
+}
+
+.gelato-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.gelato-card h3 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+.gelato-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
+}
