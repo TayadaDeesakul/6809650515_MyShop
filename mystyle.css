@@ -86,3 +86,12 @@ nav{
   font-family: "Sniglet", system-ui;
   font-size: 20px;
 }
+h1{
+  font-family: "Agbalumo", system-ui;
+  font-size: 50pt;
+  font-weight: normal;
+  font-style: normal;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
