@@ -80,3 +80,9 @@ nav{
   padding: 3px;
   width: fit-content;
 }
+.option li a{
+  color: black;
+  text-decoration: none;
+  font-family: "Sniglet", system-ui;
+  font-size: 20px;
+}
