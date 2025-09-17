@@ -355,3 +355,77 @@ text-align: center;
   gap: 20px;
   justify-content: center;
 }
+.flavor-section {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Sniglet", system-ui;
+  font-size: 20px;
+}
+
+.flavor-gallery{
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.flavor-card {
+  background-color: #fce4ec; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 250px; 
+  max-width: 100%;
+  font-size: 15px;
+}
+
+.flavor-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.flavor-card h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+.flavor-section1 {
+  text-align: center;
+  padding: 50px 20px;
+  font-family: "Sniglet", system-ui;
+  font-size: 20px;
+}
+
+.flavor-gallery1 {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.flavor-card1 {
+  background-color: #fce4ec; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 250px; 
+  max-width: 100%;
+  font-size: 15px;
+}
+
+.flavor-card1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.flavor-card1 h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
