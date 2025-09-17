@@ -95,3 +95,13 @@ h1{
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.Aboutus{
+  font-size: 18pt;
+  font-family: "Playwrite AU SA", cursive;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  text-align: justify;
+  margin-left: 15px;
+  margin-right: 12px;
+}
