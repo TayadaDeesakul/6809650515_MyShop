@@ -61,3 +61,11 @@ nav{
   box-sizing: border-box;
   width: 100%;
 }
+.logo a {
+  font-weight: bold;
+  font-size: 30px;
+  font-family: "Sniglet", system-ui;
+  text-decoration: none;
+  color:black;
+  margin-left: 10pt;
+}
