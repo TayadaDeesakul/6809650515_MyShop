@@ -73,3 +73,10 @@ nav{
   display: flex;
   list-style: none;
 }
+.option li{
+  margin: 10pt;
+  background-color: rgb(248, 218, 233);
+  border-radius: 10px;
+  padding: 3px;
+  width: fit-content;
+}
