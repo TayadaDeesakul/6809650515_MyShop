@@ -119,3 +119,11 @@ h1{
 .contact-info{
 height: 550px;
 }
+#CONTACTUS{
+  text-align: left;
+  margin-bottom: 0px;
+  font-family: "Sniglet", system-ui;
+  font-size: 30px;
+  margin-top: 15px;
+  margin: 50px;
+}
