@@ -459,3 +459,39 @@ text-align: center;
   font-size: 1.2em;
   margin: 10px 0;
 }
+.toppings-section1{
+  text-align: center;
+  padding: 50px 0px;
+  font-family: "Sniglet", system-ui;
+}
+.explain{
+  font-size: 15px;
+  color: #666;
+}  
+.toppings-gallery1 {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+.toppings-card1{
+  background-color: #fce4ec; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 250px; 
+  max-width: 1000%;
+  font-size: 15px;
+}
+.toppings-card1 img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+.toppings h3 {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
