@@ -253,7 +253,6 @@ text-align: center;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-
 .Selling-card img {
   width: 250px;
   height: 250px;
@@ -301,4 +300,58 @@ text-align: center;
 
 .buy-btn:hover {
   background: #e67e22;
+}
+.container-section {
+  text-align: center;
+  padding: 30px 20px;
+  font-size: 20px;
+  border-radius:20px;
+  font-family: "Sniglet", system-ui;
+}
+
+.container-gallery {
+  display: flex;
+  justify-content: center; 
+  flex-wrap: wrap; 
+  gap: 20px; 
+}
+
+.container-card {
+  background-color: #fce4ec; 
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  width: 250px; 
+  max-width: 100%;
+  justify-content: space-evenly;
+  margin-left: 100px;
+  margin-right: 20px;
+
+}
+.FoodContainer{
+  font-family: "Delicious Handrawn", cursive;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #fff5e0;
+}
+
+.container-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: cover;
+  aspect-ratio: 1/1;
+}
+
+.container-card h3 {
+  font-size: 15px;
+  margin: 10px 0;
+}
+.container-gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  gap: 20px;
+  justify-content: center;
 }
